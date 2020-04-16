@@ -1,3 +1,5 @@
+// a control used to display background information of the website
+
 var infoboard_Instance;
 
 L.Control.switchIcon = L.Control.extend({
