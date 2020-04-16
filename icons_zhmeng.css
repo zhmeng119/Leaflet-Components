@@ -1,0 +1,395 @@
+.basemapIcon{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    border: gray 1px solid;
+}
+.basemapIcon-font{
+    font-size: 16px;
+}
+
+/* Drawer */
+.drawer-button{
+    background-image: url(/icons_zhmeng/maps-pin.png);
+    width: 44px;
+    height: 44px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+	border-radius: 4px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.65);
+    cursor: auto;
+    text-align: center;
+    background-color: #ffffff;
+    /* clear: none; */
+    z-index: 200;
+    position: absolute;
+    top: 2px;
+    right: 55px;
+}
+.drawer-button:hover{
+    background-color: #cac8c9;
+}
+.drawer-container{
+    width: auto;
+    height: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+	border-radius: 4px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.65);
+    cursor: auto;
+    text-align: center;
+    background-color: #d8e4f0;
+    /* clear: none; */
+    z-index: 200;
+    position: absolute;
+    top: 2px;
+    right: 110px;
+}
+.drawer-title{
+    text-align: center;
+    margin: 0;
+    font-size: 15px;
+    
+}
+.drawer-title-customize{
+    font-size: 20px;
+    font-family:Georgia;
+    
+
+}
+.drawer-main{
+    margin-top: 5px;
+    border: 2px;
+    border-bottom: rgb(113, 201, 241) 1px solid;
+    /* border: #164e0c 1px solid; */
+}
+.drawer-addbtn{
+    width: auto;
+    height: auto;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+    border-radius: 50%;
+    
+}
+.drawer-finishbtn{
+    width: auto;
+    height: auto;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+    border-radius: 50%;
+    
+}
+.drawer-clearbtn{
+    width: auto;
+    height: auto;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+    border-radius: 50%;
+    
+}
+
+.addbtn-container{
+    /* float: left; */
+    margin-left: 20%;
+    
+}
+.finish-container{
+    float: left;
+    margin-left: 20%;
+    /* width: auto;
+    height: auto;
+    margin-left: 40%; */
+}
+.form-inline{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
+}
+.form-inline label {
+    margin: 5px 10px 5px 0;
+}
+.form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.form-delete{
+    width: auto;
+    height: auto;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.input-latlng{
+    background-color: #c2d5ee
+}
+
+
+/* switch Icon */
+.info-chart-button{
+    background-image: url("icons/info.png");
+    width: 44px;
+    height: 44px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+	border-radius: 4px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.65);
+    cursor: auto;
+    text-align: center;
+    background-color: #ffffff;
+    /* clear: none; */
+    z-index: 200;
+    position: absolute;
+    top: 2px;
+    right: 107px;
+}
+.info-chart-button:hover{
+    background-color: #afafaf;
+}
+.info-board-container{
+    width: 400px;
+    height: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+	border-radius: 4px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.65);
+    cursor: default;
+    text-align: center;
+    background-color: #ffffff;
+    /* clear: none; */
+    z-index: 200;
+    position: absolute;
+    top: 50px;
+    right: 107px;
+    
+
+}
+.info-shrimpLogo{
+    height: 48px;
+    width: 48px;
+    background-image: url("icons/shrimp.png");
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.info-about{
+    width: 90%;
+    height: 90%;
+    font-size: 100%;
+    text-align: left;
+    margin-left: 15px;
+}
+
+
+/* Transparency button */
+.transparency-button{
+    background-image: url("icons/opacity.png");
+    width: 44px;
+    height: 44px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+	border-radius: 4px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.65);
+    /* cursor: auto; */
+    text-align: center;
+    background-color: #ffffff;
+    /* clear: none; */
+    z-index: 200;
+    position: absolute;
+    top: 2px;
+    right: 55px;
+}
+.transparency-button:hover{
+    background-color: #afafaf;
+}
+.transparency-button :focus{
+    background-color: #e01a7d;
+}
+.transparency-slider{
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+	border-radius: 4px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.65);
+    cursor: default;
+    text-align: center;
+    background-color: #ffffff;
+    height: 78px;
+    width: 200px;
+    z-index: 200;
+    position: absolute;
+    top: 50px;
+    right: 55px;
+}
+.slider-container{
+    height: auto;
+    width: 60%;
+    margin: auto;
+    z-index: 200;
+    /* position: absolute;
+    top: 50px;
+    right: 55px; */
+}
+.transparency-tip{
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+	border-radius: 4px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.65);
+    cursor: default;
+    text-align: center;
+    background-color: #ffffff;
+    height: 60px;
+    width: 200px;
+    z-index: 200;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.transparency-text{
+    font-size: 16px;
+}
+#close {
+    /*float:right;*/
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+}
+#close:hover{
+    background:rgb(156, 59, 59);
+}
+
+
+
+
+/* Land Cover */
+
+table tr {
+	/*height: 10px;*/
+	/*border: 1px solid black;*/
+	text-align: center;
+}
+
+.legend-caption {
+	/*
+	height: 10px;
+	font-size: 12px;
+	line-height: 10px;
+	*/
+	height: 0.625em;
+	font-size: 0.85em;
+	line-height: 0.625em;
+	color: black;
+}
+
+.legend-land-cover {
+	height: 1em;
+    width: 1em;  
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	border: solid 1px #000;
+}
+
+.Mangrove {
+    background: #164e0c;
+}
+.Coastal-Wetland {
+    background: #69b792;
+}
+.Pond {
+    background: #de5a16;
+}
+.Water {
+    background: #7d7dff;
+}
+.Other-Missing { 
+    background: #c0c0c0;
+}
+
+
+/* Land Change */
+.legend-land-change {
+	height: 1rem;
+    width: 1rem;
+	-webkit-border-radius: 1rem;
+	-moz-border-radius: 1rem;
+	border-radius: 1rem;
+	border: solid 1px #000;
+	text-align: right;
+}
+
+.Man { 
+    background: rgb(0, 128, 64);
+}
+.Man_Pon {
+    background: rgb(255, 0, 0);
+}
+.Man_Oth {
+    background: rgb(255, 255, 0);
+	/*border: solid 1px #999900;*/
+}
+.Man_Wat {
+    background: rgb(128, 0, 255);
+}
+.Pon {
+    background: rgb(128, 128, 255);
+}
+.Pon_Man {
+    background: rgb(0, 255, 0);
+}
+.Pon_Oth {
+    background: rgb(192, 192, 192);
+}
+.Pon_Wat {
+    background: rgb(22, 0, 45);
+}
+.Oth_Pon {
+    background: rgb(255, 128, 255);
+}
+.Wet {
+    background: rgb(179, 255, 179);
+}
+.Wet_Pon {
+    background: rgb(255, 128, 128);
+}
+.Wet_Oth {
+    background: rgb(255, 255, 191);
+}
+.Wat {
+    background: rgb(0, 0, 128);
+}
+.Wat_Man {
+    background: rgb(128, 128, 0);
+}
+.Wat_Pon {
+    background: rgb(0, 255, 255);
+}
